@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding:0 ;
+    background:gray;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.slider{
+    background:url(https://media.istockphoto.com/id/1302981374/photo/attractive-woman-sitting-on-couch-at-home-and-laughing.jpg?s=612x612&w=is&k=20&c=sq5Sj49uzHHJzFUS8WqKfyssp7Dhu4mEjiOQZkKG8Is=);
+    background-size: cover;
+    height: 450px;
+    width: 800px;
+    box-shadow: 0px 5px 8px rgba(0, 0,0, .3);
+    animation: animate 15s infinite;
+
+
+}
+@keyframes animate{
+  20%  {background: url(https://media.istockphoto.com/id/1302981374/photo/attractive-woman-sitting-on-couch-at-home-and-laughing.jpg?s=612x612&w=is&k=20&c=sq5Sj49uzHHJzFUS8WqKfyssp7Dhu4mEjiOQZkKG8Is=);
+    background-size: cover;
+
+    }
+      40%  {background: url(https://media.istockphoto.com/id/2185868614/photo/atmospheric-portrait-of-a-young-woman-shot-in-warm-tones.jpg?s=612x612&w=is&k=20&c=DZo2houwajTiEDtNb9NMKbh0SKCZ-FhIubZeswckwXM=);
+    background-size: cover;
+
+    }
+      60%  {background: url(https://media.istockphoto.com/id/2200268934/photo/close-up-happy-laughing-young-woman.jpg?s=612x612&w=is&k=20&c=mVwLntMw0iyEVPcqqhzbf0td7nzc5rgXLRP_5H_NO5M=);
+    background-size: cover;
+
+    }
+      80%  {background: url(https://media.istockphoto.com/id/2220558984/photo/beautiful-positive-caucasian-brunette-woman-in-white-silky-bathrobe-touching-her-pretty-glowy.jpg?s=612x612&w=is&k=20&c=O-QsThOFZK9lFUfWikY5hbwkLJjqG7E0_zItjs6nkHc=);
+    background-size: cover;
+
+    }
+          100%  {background: url(https://media.istockphoto.com/id/2185868614/photo/atmospheric-portrait-of-a-young-woman-shot-in-warm-tones.jpg?s=612x612&w=is&k=20&c=DZo2houwajTiEDtNb9NMKbh0SKCZ-FhIubZeswckwXM=);
+    background-size: cover;
+
+    }
+}
